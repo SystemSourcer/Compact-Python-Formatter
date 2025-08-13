@@ -1,0 +1,15 @@
+{
+    "sort_imports": true,
+    "structure": true,
+    "docstring": true,
+    "clear_all_space": true,
+    "indent_end_space": true,
+    "rm_double_space": true,
+    "no_equal_param_space": true,
+    "no_equal_def_space": true,
+    "each_line_comment": true,
+    "pretty_comment": true,
+    "singel_qmark": true,
+    "compress_if_else": true,
+    "edit": "2025-08-12T12:40:35"
+}
