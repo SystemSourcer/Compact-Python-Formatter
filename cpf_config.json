@@ -1,15 +1,20 @@
 {
+    "structure_imports": true,
+    "unindent_imports": true,
     "sort_imports": true,
-    "structure": true,
-    "docstring": true,
+    "structure_functions": true,
+    "structure_objects": true,
+    "structure_globals": true,
     "clear_all_space": true,
     "indent_end_space": true,
     "rm_double_space": true,
     "no_equal_param_space": true,
     "no_equal_def_space": true,
+    "docstring": true,
     "each_line_comment": true,
     "pretty_comment": true,
     "singel_qmark": true,
     "compress_if_else": true,
-    "edit": "2025-08-12T12:40:35"
+    " max_line_len": null,
+    "edit": "2025-08-14T22:23:34"
 }
