@@ -5,9 +5,9 @@
     "structure_functions": true,
     "structure_objects": true,
     "structure_globals": true,
-    "clear_all_space": true,
-    "indent_end_space": true,
-    "rm_double_space": true,
+    "rm_vspace": true,
+    "indent_vspace": true,
+    "rm_hspace": true,
     "no_equal_param_space": true,
     "no_equal_def_space": true,
     "docstring": true,
@@ -16,5 +16,5 @@
     "singel_qmark": true,
     "compress_if_else": true,
     " max_line_len": null,
-    "edit": "2025-08-14T22:23:34"
+    "edit": "2025-08-19T22:44:39"
 }
