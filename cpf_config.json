@@ -12,8 +12,7 @@
     "equal_brack_space": false,
     "docstring": true,
     "each_line_comment": true,
-    "compress_if_else": true,
-    " max_line_len": null,
+    "max_line_len": null,
     "backup": true,
-    "edit": "2025-08-26T21:32:28"
+    "edit": "2025-09-12T12:44:59"
 }
