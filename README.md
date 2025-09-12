@@ -9,9 +9,9 @@ CPF is a Python code formatter that prioritizes compactness and readability usin
 
 - Formats Python code with maximal compactness while ensuring clarity
 
-- Can alöso sort imports aswell as add comments for the structure and docstrings
+- Can also sort imports aswell as add comments for the structure and docstrings
 
-- Fast and easy to use as a CLI tool or Python package
+- Fast and easy to use as a CLI tool 
 
 - Customizable via json file for personal or project-specific layouts
 
@@ -20,13 +20,15 @@ CPF is a Python code formatter that prioritizes compactness and readability usin
 
 ## Installation 
 
-To be written...
+Colne the repository or just download the cpf.py file.
 
 
 ## Usage
 
-To be written...
-
+Import and inegrate it in your python code or ese it directly via CLI:
+```bash
+python cgp.py
+``` 
 
 ## Example
 
@@ -36,7 +38,25 @@ To be written...
 
 CPF can be customized using a configuration file (cpf-config.json).
 
-Coming soon: Add details about configurable options.
+Configurable options:
+- "structure_imports": Should the global imports be grouped together at the beginning (true or false)
+- "unindent_imports":  Sholud the not global imports be made global (true or false)
+- "sort_imports": Sholud the imports be sorted (true or false)
+- "structure_functions": Should the global functions be grouped together after the Imports. Sets structure_imports internally to true (true or false)
+- "structure_objects": Should the global classes / obbjects be grouped together. Sets structure_imports internally to true (true or false)
+- "structure_globals": Sholud all globbal lines which are nor import, comment structure, functions or objects be groupt togehter at the end under "if __name__ == '__main__':" (true or false)
+- "rm_vspace": Sholud all empty lines be removed (true or false)
+- "indent_vspace": Shuold an empy line be inserted after an indent ends (true or false)
+- "rm_hspace": Sholud multible spaces be reduced (true or false)
+- "equal_space": Shloud be spaces before and after opertators. (true or false)
+- "equal_brack_space": Sholud be spaces befor and after operators inside brackets (true or false)
+- "docstring": Should docstrings be created at the beginning of classes and functions? (true or false)
+- "each_line_comment": Sholud # be added at the end of all lines which do not end inside bracklets (true or false)
+- "max_line_len": Shloud line be breaked after a specific length (null or Integer value)
+- "backup": Should a backup file be created before formatting? (true or false)
+
+Additional options planned for the future:
+- Compressing if else and loops as far as possible
 
 ## Why not PEP8?
 
@@ -49,4 +69,4 @@ CPF is designed for those who prefer extremely concise code layouts for personal
 
 MIT License
 
-See LICENSE for more information.
+See [LICENSE](LICENSE) for more information.

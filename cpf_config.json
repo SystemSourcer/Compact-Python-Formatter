@@ -1,0 +1,18 @@
+{
+    "structure_imports": true,
+    "unindent_imports": true,
+    "sort_imports": true,
+    "structure_functions": true,
+    "structure_objects": true,
+    "structure_globals": true,
+    "rm_vspace": true,
+    "indent_vspace": true,
+    "rm_hspace": true,
+    "equal_space": true,
+    "equal_brack_space": false,
+    "docstring": true,
+    "each_line_comment": true,
+    "max_line_len": null,
+    "backup": true,
+    "edit": "2025-09-12T12:44:59"
+}
